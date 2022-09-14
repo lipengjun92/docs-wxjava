@@ -1,0 +1,47 @@
+{
+  "name": "docs-wxjava",
+  "version": "1.0.0",
+  "description": "支持微信支付、开放平台、公众号、企业号/企业微信、小程序等的后端开发",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs --clean-cache"
+  },
+  "keywords": [
+    "wxjava",
+    "微信开发 Java SDK"
+  ],
+  "author": "binarywang",
+  "license": "Apache-2.0",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.0.9",
+    "@vue/reactivity": "^3.2.38",
+    "@vue/shared": "^3.2.38",
+    "@vuepress/utils": "^2.0.0-beta.51",
+    "element-plus": "^2.2.14",
+    "gitalk": "^1.8.0",
+    "sass": "^1.54.8",
+    "typescript": "^4.8.3",
+    "vue": "^3.2.25",
+    "vuepress-theme-hope": "^2.0.0-beta.97",
+    "wisdom-ui": "^0.0.36"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.13",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "@vuepress/client": "2.0.0-beta.51",
+    "@vuepress/plugin-register-components": "^2.0.0-beta.51",
+    "@vuepress/plugin-search": "next",
+    "postcss": "^8.4.16",
+    "postcss-cli": "^10.0.0",
+    "vite": "^2.9.9",
+    "vitest": "^0.18.0",
+    "vue-baidu-analytics": "^2.2.0",
+    "vuepress": "2.0.0-beta.51",
+    "vuepress-plugin-md-enhance": "next",
+    "vuepress-plugin-photo-swipe": "next"
+  }
+}
