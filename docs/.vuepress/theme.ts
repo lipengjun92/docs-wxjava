@@ -7,7 +7,6 @@ export const hopeThemeConfig = hopeTheme({
     headerDepth: 2,
     copyright: false,
     displayFooter: true,
-    editLink: false,
     lastUpdated: true,
     contributors: true,
     fullscreen: true,
@@ -19,6 +18,9 @@ export const hopeThemeConfig = hopeTheme({
         red: "#FF4C52",
     },
     repo: 'https://github.com/Wechat-Group/WxJava',
+    docsRepo: 'https://gitee.com/fuyang_lipengjun/docs-wxjava',
+    docsBranch: 'master',
+    docsDir: 'docs',
     locales: {
         "/zh-CN/": {
             author: {
